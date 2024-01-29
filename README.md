@@ -61,3 +61,4 @@ FILTER: Filter status of the variant, indicating if it passes quality thresholds
 INFO: Additional information about the variant, such as allele frequency, depth of coverage, and other annotations.
 FORMAT: Format of the data in the genotype fields.
 unknown: Sample-specific genotype information, detailing the genotype of the sample and additional metrics like genotype quality, depth, and allele count.
+

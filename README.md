@@ -1,9 +1,15 @@
 User Guide of TMBstable
 
+
+
 Introduction
+
 TMBstable is an innovative caller designed for the stable detection of variants.
 
+
+
 Install
+
 The following packages and software need to be installed before running TMBstable. 
 os
 csv
@@ -21,7 +27,9 @@ quickgt
 samtools
 bedtools
 
+
 Usage
+
 usage: workFlow.py [-h] -b BAM_FILE -d INI_INFO_DIR -g REFGENOME -m
                    SNP_METAMODEL -n SV_METAMODEL -w SNP_WINDOW -r
                    INIREPEATFILEDIR -o OUTFILEDIR
@@ -45,7 +53,9 @@ optional arguments:
   -o OUTFILEDIR, --outFileDir OUTFILEDIR
                         the out file dir, eg: myresult/TMBstable.vcf
 
+
 Example
+
 Here is an example of running TMBstable on a Linux system:
 python workFlow.py -b sample.bam -d /ini_info/ -g /refGenome/hg19.fa -m Nsnp_134.m -n Nsv_2567.m -w 1000000 -r /hg19RepeatFile/rmsk.txt -o /myresult/TMBstable.vcf
 

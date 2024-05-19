@@ -40,6 +40,21 @@ samtools
 
 bedtools
 
+bcftools
+
+freebayes
+
+GATK mutect2
+
+Delly
+
+Manta
+
+Pindel
+
+SvABA
+
+
 Usage
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 usage:    workFlow.py [-h] -b BAM_FILE -d INI_INFO_DIR -g REFGENOME -m SNP_METAMODEL -n SV_METAMODEL -w SNP_WINDOW -r INIREPEATFILEDIR -o OUTFILEDIR
